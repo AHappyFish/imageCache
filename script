@@ -1,0 +1,1 @@
+tell application "Xcode"	activateend telltell application "System Events"	tell process "Xcode"				tell menu item "Organizer" of menu "Window" of menu bar item "Window" of menu bar 1			perform action "AXPress"		end tell			end tellend tell
